@@ -2,17 +2,23 @@ body{
     font-family: Montserrat;
 }
 
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p{
+    color:#8f8f8f;
+}
 
 .container-fluid{
     padding:3% 15%;
 }
 
-
 .nav-item{
     padding:0 15px;
     font-size: 1.2rem;
 }
-
 
 .navbar{
     padding: 1rem 0 4rem 0;
@@ -23,13 +29,11 @@ body{
     background-color: #ff4c68;
 }
 
-
 #tindog{
     font-size: 2rem;
     font-family: ubuntu;
     font-weight: 700;
 }
-
 
 #introduce{
     font-family: Montserrat;
@@ -38,7 +42,6 @@ body{
     font-weight: 900;
     color: white;
 }
-
 
 .download-btn{
     margin:5% 3% 5% 0;
@@ -53,4 +56,20 @@ body{
 #iphone{
     transform: rotate(15deg);
     width:60%;
+    position: relative;
+    left:10%;
+}
+
+.feature{
+    text-align: center;
+    padding:15% 3%;
+    position: relative;
+}
+
+.feature-icon{
+    color:#ef8172;
+    margin-bottom: 2rem;
+
+.feature-icon:hover{
+    color: #ff4c68;
 }
