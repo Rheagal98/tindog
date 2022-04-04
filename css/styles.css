@@ -7,6 +7,11 @@ h3{
     font-weight: 700;
 }
 
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
 p{
     color:#8f8f8f;
 }
@@ -29,6 +34,7 @@ p{
     background-color: #ff4c68;
 }
 
+
 #tindog{
     font-size: 2rem;
     font-family: ubuntu;
@@ -47,29 +53,75 @@ p{
     margin:5% 3% 5% 0;
 }
 
-
 #iphone-container{
     margin: 2rem 0 2rem 0;
+    position: relative;
 }
 
-
 #iphone{
-    transform: rotate(15deg);
-    width:60%;
+    transform: rotate(25deg);
+    max-width: 70%;
+    position: absolute;
+    padding-left: 50px;
+}
+
+#features{
+    background-color: white;
+    padding: 0 15%;
     position: relative;
-    left:10%;
+    z-index:1;
 }
 
 .feature{
     text-align: center;
     padding:15% 3%;
-    position: relative;
 }
 
 .feature-icon{
     color:#ef8172;
     margin-bottom: 2rem;
+}
 
 .feature-icon:hover{
     color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    color:#fff;
+    text-align: center;
+}
+
+.testimonial-im{
+    width:10%;
+    border-radius: 100%;
+    margin:4% 2%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-im{
+    width: 15%;
+    margin: 5% 3% 10% 3%;;
+}
+
+.carousel-item{
+    padding: 5% 20%;
+}
+
+.card-section{
+    margin-top: 3rem;
+}
+
+
+.card{
+    text-align: center;
+}
+
+#pricing{
+    padding: 6.25rem;
+    text-align: center;
 }
