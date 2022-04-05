@@ -14,11 +14,14 @@ h2{
 
 p{
     color:#8f8f8f;
+    font-size: 16px;
 }
 
 .container-fluid{
     padding:3% 15%;
 }
+
+
 
 .nav-item{
     padding:0 15px;
@@ -29,6 +32,10 @@ p{
     padding: 1rem 0 4rem 0;
 }
 
+
+.title-image{
+    padding-bottom: 5rem;
+}
 
 #title{
     background-color: #ff4c68;
@@ -60,16 +67,16 @@ p{
 
 #iphone{
     transform: rotate(25deg);
-    max-width: 70%;
+    width: 60%;
     position: absolute;
-    padding-left: 50px;
+    padding-left: 3rem;
 }
 
 #features{
     background-color: white;
     padding: 0 15%;
     position: relative;
-    z-index:1;
+    z-index:0;
 }
 
 .feature{
@@ -124,4 +131,50 @@ p{
 #pricing{
     padding: 6.25rem;
     text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: Montserrat;
+    text-align: center;
+    color:#fff;
+    padding:5rem 20% 3rem 20%;
+}
+
+#end-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+#footer{
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+}
+
+.footer-icon{
+    margin: 0 0.3rem 1rem 0;
+}
+
+@media (max-width: 993px){
+
+    #iphone{
+        position:static;
+    }
+
+    .title-image{
+        padding-bottom: 2rem;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #introduce{
+        font-size: 2.5rem;
+    }
 }
